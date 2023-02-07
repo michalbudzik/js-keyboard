@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.container button {
+    width: 50px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+
+
+
+.container:first-of-type button:focus {
+    background-color: antiquewhite;
+    outline: none;
+}
